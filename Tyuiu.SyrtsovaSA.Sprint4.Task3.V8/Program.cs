@@ -37,7 +37,7 @@ class Program
         Console.WriteLine("************************************************************************"); 
         Console.WriteLine("* РЕЗУЛЬТАТ:                                                           *"); 
         Console.WriteLine("************************************************************************"); 
-        Console.WriteLine($"Минимальный элемент в четвертом столбце массива. = {ds.Calculate(array)}"); 
+        Console.WriteLine($"Минимальный элемент в четвертом столбце массива = {ds.Calculate(array)}"); 
         Console.ReadKey();
     } 
 } 
