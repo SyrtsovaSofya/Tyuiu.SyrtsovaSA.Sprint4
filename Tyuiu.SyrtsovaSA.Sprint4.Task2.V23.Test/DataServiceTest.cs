@@ -9,8 +9,8 @@ public class DataServiceTest
    public void ValidExpression()  
    {
         DataService ds = new DataService();
-        int[] numsArray = { 9, 9, 5, 6, 5, 4, 4, 5, 8, 7, 6, 8, 7, 5, 9, 9, 9 };
+        int[] numsArray = { 8, 8, 5, 6, 5, 4, 4, 5, 8, 7, 6, 8, 7, 5, 8 };
         int res = ds.Calculate(numsArray);
-        Assert.AreEqual(36, res);
+        Assert.AreEqual(60, res);
     } 
 } 
